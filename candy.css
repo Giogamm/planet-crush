@@ -1,5 +1,6 @@
 body {
-    background: url("./background.jpg") no-repeat center center fixed;
+
+    background: url("./Negro\ Sencillo\ Espacio\ Exterior\ Foto\ Neil\ Armstrong\ Frase\ Inspiración\ Genial\ Fondo\ de\ Pantalla.png") no-repeat center center fixed;
     background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
@@ -9,8 +10,8 @@ body {
 #board {
     width: 450px;
     height: 450px;
-    background-color: lightblue;
-    border: 5px solid slategray;
+background-image: radial-gradient(circle, #162545, #152340, #14213c, #131f37, #121d33);
+    border: 5px solid #122d63;
     border-radius: 10px;
     margin: 0 auto;
     display: flex;
@@ -21,3 +22,21 @@ body {
     width: 50px;
     height: 50px;
 }
+
+button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #122d63;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .2s ;
+
+}
+
+button:hover {
+    background-color: #0f2658;
+}
+
